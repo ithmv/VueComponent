@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+:root {
+    --primary-color: linear-gradient(90deg, #D7650F, #E1250A);
+    --click-color: linear-gradient(90deg, #853900, #AA1500);
+    --disable-color: linear-gradient(90deg, #8A8A8A, #505050);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background:#1E1E1E;
+    color: #FAFAFA;
+
+}
+
+#app {
+    max-width: 1280px;
+    margin: 100px auto;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
